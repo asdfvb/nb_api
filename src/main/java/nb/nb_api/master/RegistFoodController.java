@@ -22,6 +22,7 @@ public class RegistFoodController {
 
         jsonobject.keySet().forEach(item -> {
             System.out.println(item + " : " +jsonobject.get(item));
+            System.out.println("git branch test");
         });
 
         return HttpStatus.OK;
